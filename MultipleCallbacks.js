@@ -10,11 +10,11 @@ _.each(Template, function(template, templateName) {
 });
 
 _.each(eventNames, function(eventName, i) {
-    Template[eventName] = function(template_name, callback) {
+    Template[eventName] = function(templateName, callback) {
         var _base;
         this['_' + eventName + '_callbacks'] || (this['_' + eventName + '_callbacks'] = {});
-        (_base = this['_' + eventName + '_callbacks'])[template_name] || (_base[template_name] = []);
-        return this['_' + eventName + '_callbacks'][template_name].push(callback);
+        (_base = this['_' + eventName + '_callbacks'])[templateName] || (_base[templateName] = []);
+        return this['_' + eventName + '_callbacks'][templateName].push(callback);
     };
 
     Template['bootstrap' + methodNames[i] + 'Callbacks'] = function() {
