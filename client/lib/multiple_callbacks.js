@@ -19,8 +19,6 @@ _.each(evtNames, function(evtName, i) {
                         callbacks = null,
                         nameSpace = '_' + evtName + '_callbacks';
 
-                    self.templateName = tplName;
-
                     superFunc.bind(self)();
 
                     if (Template.hasOwnProperty(nameSpace)) {
