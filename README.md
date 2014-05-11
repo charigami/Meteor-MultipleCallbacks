@@ -6,11 +6,17 @@ Enable multiple callbacks for created / rendered / destroyed events. Thanks Ivan
 
 ## Quick Start
 
-For now, simply put MultipleCallbacks.js in your client/lib folder.
+Clone it to your project:
+
+    git clone https://github.com/krevativ/Meteor-MultipleCallbacks.git /[projectpath]/packages/MultipleCallbacks
+
+Add the package:
+
+    meteor add MultipleCallbacks
 
 ## How to use
 
-You can still use Template.name.eventname and it will be allways called first.
+You can still use Template.name.eventname and it will be always called first.
 
 And if you want to add more callbacks you can do it like so:
 
