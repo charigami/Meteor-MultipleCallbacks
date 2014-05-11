@@ -34,3 +34,6 @@ Or, you can specify your Template like so:
 
 You can do it for created, rendered and destroyed events.
 
+## TODO
+
+    Remove events?
