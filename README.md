@@ -6,7 +6,7 @@ Enable multiple callbacks for created / rendered / destroyed events. Thanks Ivan
 
 ## Quick Start
 
-For now, simply put multipleCallbacks.js in your client/lib folder.
+For now, simply put MultipleCallbacks.js in your client/lib folder.
 
 ## How to use
 
