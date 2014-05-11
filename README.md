@@ -36,4 +36,4 @@ You can do it for created, rendered and destroyed events.
 
 ## TODO
 
-    Remove events?
+Remove events?
